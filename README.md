@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Assignment: A
+ 
 
-## Getting Started
+Task Description: Your task is to build a user registration and login system using the MERN stack (MongoDB, Express.js, React.js, Node.js), TypeScript, and Next.js. The system should allow users to register, login, and view their profile.
 
-First, run the development server:
+ 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The following features should be implemented:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. User Registration:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+·         Implement a registration form where users can enter their username, email, and password.
 
-## Learn More
+·         Validate user input to ensure all required fields are provided and follow any necessary constraints.
 
-To learn more about Next.js, take a look at the following resources:
+·         Store the user information securely in a MongoDB database using Mongoose or a similar ODM.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. User Login:
 
-## Deploy on Vercel
+·         Implement a login form where users can enter their email and password.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+·         Authenticate the user's credentials against the stored user information in the MongoDB database.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+·         Use session management or JWT (JSON Web Tokens) to maintain user authentication.
+
+ 
+
+3. User Profile:
+
+·         Create a user profile page that displays the user's username and email.
+
+·         Ensure that only authenticated users can access and view their own profile page.
+
+ 
+
+4. UI Design and Responsiveness:
+
+·         Implement a responsive UI design using React.js or a UI library/framework of your choice.
+
+·         Ensure that the application looks good and is usable on both desktop and mobile devices.
+
+ 
+
+You should focus on creating a functional system within the given time constraint. You may use any appropriate libraries or frameworks to expedite the development process.
